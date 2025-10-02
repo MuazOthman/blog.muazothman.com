@@ -27,5 +27,7 @@ pnpm-debug.log*
 .idea/
 
 # pagefind
-
 public/pagefind
+
+# SAM & AWS
+.aws-sam/
