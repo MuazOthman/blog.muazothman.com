@@ -1,21 +1,24 @@
 import type { I18nStrings } from "@/i18n/types";
 
 const baseStrings = {
-  "site.title": "AstroPaper I18n",
-  "site.desc": "A fork of AstroPaper theme with support for I18n",
+  "site.title": "Muaz Othman",
+  "site.desc": "Software Engineering Lessons from the Field",
+  "site.author": "Muaz Othman",
 };
 
 const ENLocale: I18nStrings = {
   ...baseStrings,
-  "hero.title": "Mingalaba",
+  "hero.title": "Software Engineering Lessons from the Field",
   "hero.body": `
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        I've spent the last 17+ years bouncing between startups, small teams, 
+        and government platforms — leading teams, shipping code, and occasionally 
+        breaking production (then fixing it). These days, I nerd out on cloud apps, 
+        backend systems, and the quirks of distributed software. This blog is my 
+        sandbox for sharing thoughts on engineering, leadership, and the odd lessons 
+        you only learn by building things in the real world.
 `,
   "hero.beforeReadme": "Read the blog posts or check",
-  "hero.readme": "README",
+  "hero.readme": "my Github",
   "hero.afterReadme": "for more info.",
   copy: "copy",
   copied: "copied",
@@ -69,26 +72,26 @@ const ENLocale: I18nStrings = {
   "date.month.10": "October",
   "date.month.11": "November",
   "date.month.12": "December",
-  "socials.github": `${baseStrings["site.title"]} on Github`,
-  "socials.facebook": `${baseStrings["site.title"]} on Facebook`,
-  "socials.instagram": `${baseStrings["site.title"]} on Instagram`,
-  "socials.linkedin": `${baseStrings["site.title"]} on LinkedIn`,
-  "socials.mail": `Send an email to ${baseStrings["site.title"]}`,
-  "socials.x": `${baseStrings["site.title"]} on X`,
-  "socials.twitch": `${baseStrings["site.title"]} on Twitch`,
-  "socials.youtube": `${baseStrings["site.title"]} on Youtube`,
-  "socials.whatsapp": `${baseStrings["site.title"]} on Whatsapp`,
-  "socials.snapchat": `${baseStrings["site.title"]} on Snapchat`,
-  "socials.pinterest": `${baseStrings["site.title"]} on Pinterest`,
-  "socials.tiktok": `${baseStrings["site.title"]} on TikTok`,
-  "socials.codepen": `${baseStrings["site.title"]} on CodePen`,
-  "socials.discord": `${baseStrings["site.title"]} on Discord`,
-  "socials.gitlab": `${baseStrings["site.title"]} on GitLab`,
-  "socials.reddit": `${baseStrings["site.title"]} on Reddit`,
-  "socials.skype": `${baseStrings["site.title"]} on Skype`,
-  "socials.steam": `${baseStrings["site.title"]} on Steam`,
-  "socials.telegram": `${baseStrings["site.title"]} on Telegram`,
-  "socials.mastodon": `${baseStrings["site.title"]} on Mastodon`,
+  "socials.github": `${baseStrings["site.author"]} on Github`,
+  "socials.facebook": `${baseStrings["site.author"]} on Facebook`,
+  "socials.instagram": `${baseStrings["site.author"]} on Instagram`,
+  "socials.linkedin": `${baseStrings["site.author"]} on LinkedIn`,
+  "socials.mail": `Send an email to ${baseStrings["site.author"]}`,
+  "socials.x": `${baseStrings["site.author"]} on X`,
+  "socials.twitch": `${baseStrings["site.author"]} on Twitch`,
+  "socials.youtube": `${baseStrings["site.author"]} on Youtube`,
+  "socials.whatsapp": `${baseStrings["site.author"]} on Whatsapp`,
+  "socials.snapchat": `${baseStrings["site.author"]} on Snapchat`,
+  "socials.pinterest": `${baseStrings["site.author"]} on Pinterest`,
+  "socials.tiktok": `${baseStrings["site.author"]} on TikTok`,
+  "socials.codepen": `${baseStrings["site.author"]} on CodePen`,
+  "socials.discord": `${baseStrings["site.author"]} on Discord`,
+  "socials.gitlab": `${baseStrings["site.author"]} on GitLab`,
+  "socials.reddit": `${baseStrings["site.author"]} on Reddit`,
+  "socials.skype": `${baseStrings["site.author"]} on Skype`,
+  "socials.steam": `${baseStrings["site.author"]} on Steam`,
+  "socials.telegram": `${baseStrings["site.author"]} on Telegram`,
+  "socials.mastodon": `${baseStrings["site.author"]} on Mastodon`,
   "sharePost.desc": "Share this post on",
   "sharePost.on": "Share this post on {media}",
   "sharePost.via": "Share this post via {media}",

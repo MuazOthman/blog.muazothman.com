@@ -1,7 +1,6 @@
 import type { I18nStrings } from "./types";
 import ARLocale from "./locales/ar";
 import ENLocale from "./locales/en";
-import CNLocale from "./locales/zh";
 
 export type LocaleProfile = {
   name: string;
@@ -19,17 +18,11 @@ export const localeToProfile = {
   ar: {
     name: "العربية", // Name presented in language picker
     messages: ARLocale, // Locale translations
-    langTag: "ar-EG", // Extremly important used in localizing dates, numbers and sitemap,  only English alphabet and hyphen allowed
+    langTag: "ar-SY", // Extremly important used in localizing dates, numbers and sitemap,  only English alphabet and hyphen allowed
     direction: "rtl", // UI layout direction
     googleFontName: "Cairo", // For OG image generation, font must support 400 and 700 weights, write name as it should goes in a URL, words separated with '+' instead of spaces
   },
-  zh: {
-    name: "中文",
-    messages: CNLocale,
-    langTag: "zh-CN",
-    direction: "ltr",
-    googleFontName: "Noto+Sans+SC",
-  },
+
   en: {
     name: "English",
     messages: ENLocale,

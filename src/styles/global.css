@@ -5,19 +5,19 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  --background: #f0f8ff;
+  --foreground: #0f172a;
+  --accent: #0284c7; /* cyan-blue */
+  --muted: #e0f2fe;
+  --border: #bae6fd;
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60bf;
-  --border: #ab4b08;
+  --background: #0a192f;
+  --foreground: #e2e8f0;
+  --accent: #38bdf8;
+  --muted: #1e293b;
+  --border: #334155;
 }
 
 @theme inline {
@@ -26,6 +26,8 @@ html[data-theme="dark"] {
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-border: var(--border);
+  --text-4xl--line-height: 1.5em;
+  --text-5xl--line-height: 1.5em;
 }
 
 @layer base {
