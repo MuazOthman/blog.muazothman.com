@@ -22,6 +22,8 @@ A personal blog built with [AstroPaper](https://github.com/satnaing/astro-paper)
 - **Search:** Pagefind
 - **Testing:** Vitest
 - **Code Quality:** ESLint, Prettier, Husky
+- **Deployment:** AWS SAM (CloudFront, S3, Route53)
+- **CI/CD:** GitHub Actions
 
 ## 🛠️ Installation
 
@@ -48,11 +50,25 @@ pnpm install
 | `pnpm test:watch`   | Run unit tests in watch mode                    |
 | `pnpm coverage`     | Generate test coverage report                   |
 
+## 🚀 Deployment
+
+The blog is deployed to AWS using SAM (Serverless Application Model). For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
+
+### Quick Deploy
+
+```bash
+# Set your ACM certificate ARN
+export CERTIFICATE_ARN=your-certificate-arn
+
+# Deploy
+./scripts/deploy.sh
+```
+
 ## 📝 Adding Content
 
 ### Blog Posts
 
-Create markdown files in [src/content/blog/\<locale\>/](src/content/blog/) directory:
+Create markdown files in [src/data/blog/\<locale\>/](src/data/blog/) directory:
 
 ```markdown
 ---
@@ -67,7 +83,7 @@ Your content here...
 
 ### About Page
 
-Edit the about page in [src/content/about/](src/content/about/) for each locale:
+Edit the about page in [src/data/about/](src/data/about/) for each locale:
 
 ```markdown
 ---
@@ -84,8 +100,8 @@ This blog supports multiple languages. To add a new locale:
 
 1. Create translations file in [src/i18n/locales/](src/i18n/locales/)
 2. Configure locale in [src/i18n/config.ts](src/i18n/config.ts)
-3. Add content in [src/content/blog/\<locale\>/](src/content/blog/)
-4. Add about page in [src/content/about/about.\<locale\>.md](src/content/about/)
+3. Add content in [src/data/blog/\<locale\>/](src/data/blog/)
+4. Add about page in [src/data/about/about.\<locale\>.md](src/data/about/)
 
 ## ⚙️ Configuration
 
