@@ -9,6 +9,7 @@ export type LocaleProfile = {
   direction: "rtl" | "ltr" | "auto";
   googleFontName: string;
   default?: boolean;
+  displayName: string;
 };
 
 export type LocaleKey = keyof typeof localeToProfile;
@@ -21,6 +22,7 @@ export const localeToProfile = {
     langTag: "ar-SY", // Extremly important used in localizing dates, numbers and sitemap,  only English alphabet and hyphen allowed
     direction: "rtl", // UI layout direction
     googleFontName: "Cairo", // For OG image generation, font must support 400 and 700 weights, write name as it should goes in a URL, words separated with '+' instead of spaces
+    displayName: "عربي",
   },
 
   en: {
@@ -29,6 +31,7 @@ export const localeToProfile = {
     langTag: "en-US",
     direction: "ltr",
     googleFontName: "IBM+Plex+Mono",
+    displayName: "English",
     default: true,
   },
 } satisfies Record<string, LocaleProfile>;

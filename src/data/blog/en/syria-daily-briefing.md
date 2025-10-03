@@ -203,4 +203,4 @@ While the system is fully operational, there are several enhancements planned:
 
 ---
 
-What are your thoughts on using AI for information accessibility? I'd love to hear about similar challenges you've tackled! 👇
+What are your thoughts on using AI for information accessibility? I'd love to [hear about similar challenges you've tackled!](https://www.linkedin.com/pulse/building-syria-daily-briefing-how-i-used-ai-solve-syrian-muaz-othman-yr4bc/?trackingId=RrxRMrWXQQa6hxZ%2Flw%2B36Q%3D%3D)
