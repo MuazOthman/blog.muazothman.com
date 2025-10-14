@@ -19,8 +19,8 @@ LLMs work differently from traditional software. They process natural language u
 **Series overview:**
 
 - **Article 1** (this one): Understanding the threats and defense strategy
-- **Article 2**: Implementing technical defenses layer by layer. Drops next week. We'll delve deeper into the technical details of each layer.
-- **Article 3**: Operating and monitoring your security controls. Coming in 2 weeks. We'll talk about how to handle errors, monitor your security controls, and more.
+- **[Article 2](securing-ai-apps-2)**: Implementing technical defenses layer by layer. We delve deeper into the technical details of each layer.
+- **Article 3**: Operating and monitoring your security controls. Coming in a week. We'll talk about how to handle errors, monitor your security controls, and more.
 
 **TL;DR**: LLMs can't reliably distinguish your instructions from attacker instructions, creating new attack vectors like prompt injection. Defense requires multiple complementary layers (rate limiting, input validation, contextual separation, hardened prompting, output monitoring, continuous testing) plus organizational commitment across teams.
 
