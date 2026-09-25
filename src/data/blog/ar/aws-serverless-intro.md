@@ -1,7 +1,7 @@
 ---
 title: "مقدمة في الحوسبة بلا خوادم على AWS"
 author: معاذ عثمان
-pubDatetime: 2026-09-26T09:00:00.000Z
+pubDatetime: 2026-09-26T08:00:00.000Z
 featured: false
 draft: false
 ogImage: ../../../assets/images/aws-serverless-intro-ar.png
