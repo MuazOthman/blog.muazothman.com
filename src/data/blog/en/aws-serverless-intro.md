@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to Serverless Computing on AWS"
 author: Muaz Othman
-pubDatetime: 2026-09-26T08:00:00.000Z
+pubDatetime: 2026-09-26T07:30:00.000Z
 ogImage: ../../../assets/images/aws-serverless-intro-en.png
 featured: false
 draft: false
