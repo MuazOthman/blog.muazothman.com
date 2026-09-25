@@ -196,3 +196,4 @@ Examples:
 | Continuous adversarial testing | اختبار مستمر للخصوم (Continuous Adversarial Testing) |
 | Probabilistic reasoning | الاستدلال الاحتمالي (Probabilistic Reasoning) |
 | Data poisoning | تسميم البيانات (Data Poisoning) |
+| Code | كود |
